@@ -1,7 +1,14 @@
 # Hot Peppers
 
 A [NeoForge](https://neoforged.net/) mod for Minecraft 1.21.1 that adds a Hot Pepper crop -
-harvest it carelessly and it bites back.
+
+Hot peppers are farmed just like any other crop. When consumed they apply the Spicy effect which causes you you naturally regenerate your health faster while also consuming hunger faster. Additionally, you will regenerate health using hunger as though it were saturation meaning that you can use your full hunger bar for health regen. There are three levels of the Spicy effect each level increasing the speed at which your natural health regeneration occurs.
+
+You can add up to 3 spicy peppers to any food resulting in spicy versions of the dish which will apply the spicy effect as though you had eaten the pepper.
+
+You will need to use a hoe or shears to harvest them otherwise the spicy peppers will hurt your hands.
+
+Spicy pepper seeds are dropped from grass found in jungle biomes.
 
 ## Features
 
