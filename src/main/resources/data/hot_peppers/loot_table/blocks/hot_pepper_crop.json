@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "hot_peppers:hot_pepper_crop",
+                  "condition": "minecraft:block_state_property",
+                  "properties": { "age": "3" }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": { "bonusMultiplier": 1 }
+                }
+              ],
+              "name": "hot_peppers:hot_pepper"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "hot_peppers:hot_pepper_seeds"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "minecraft:survives_explosion" },
+        {
+          "block": "hot_peppers:hot_pepper_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": { "age": "3" }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": { "type": "minecraft:uniform", "min": 0.0, "max": 2.0 },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "hot_peppers:hot_pepper_seeds"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "hot_peppers:blocks/hot_pepper_crop"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "hot_peppers:block/hot_pepper_stage0"
+  }
+}

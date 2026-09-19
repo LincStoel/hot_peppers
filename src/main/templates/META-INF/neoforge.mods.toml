@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+description = '''
+Adds the Hot Pepper: a slow-growing jungle crop that bites back. Harvest it bare-handed and it burns
+you, eat it and it stacks a Spicy effect that speeds your natural healing -- until it sets you alight.
+Peppers can be crafted into any food to make it spicy.
+'''
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "${loader_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,15 @@
+{
+  "feature": "hot_peppers:patch_wild_hot_pepper",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 6
+    },
+    { "type": "minecraft:in_square" },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    { "type": "minecraft:biome" }
+  ]
+}

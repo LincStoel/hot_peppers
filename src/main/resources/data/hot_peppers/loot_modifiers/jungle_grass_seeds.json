@@ -1,0 +1,24 @@
+{
+  "type": "hot_peppers:add_item",
+  "item": "hot_peppers:hot_pepper_seeds",
+  "conditions": [
+    { "condition": "hot_peppers:jungle_grass_seeds_enabled" },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#minecraft:is_jungle"
+      }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        { "condition": "minecraft:block_state_property", "block": "minecraft:short_grass" },
+        { "condition": "minecraft:block_state_property", "block": "minecraft:tall_grass" }
+      ]
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.08
+    }
+  ]
+}

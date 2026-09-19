@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hot_peppers:hot_pepper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hot_peppers:hot_pepper_seeds"
+  }
+}

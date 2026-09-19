@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_jungle",
+  "features": ["hot_peppers:patch_wild_hot_pepper"],
+  "step": "vegetal_decoration"
+}

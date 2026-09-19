@@ -1,0 +1,20 @@
+{
+  "block.hot_peppers.hot_pepper_crop": "Hot Pepper Crop",
+  "block.hot_peppers.wild_hot_pepper": "Wild Pepper",
+  "item.hot_peppers.hot_pepper": "Hot Pepper",
+  "item.hot_peppers.hot_pepper_seeds": "Hot Pepper Seeds",
+  "effect.hot_peppers.spicy": "Spicy",
+
+  "item.hot_peppers.spicy_prefix.1": "Spicy %s",
+  "item.hot_peppers.spicy_prefix.2": "Very Spicy %s",
+  "item.hot_peppers.spicy_prefix.3": "Extremely Spicy %s",
+
+  "item.hot_peppers.spicy_tooltip.1": "Spicy I",
+  "item.hot_peppers.spicy_tooltip.2": "Spicy II",
+  "item.hot_peppers.spicy_tooltip.3": "Spicy III",
+
+  "item.hot_peppers.hot_pepper.tooltip.spicy": "Spicy!",
+  "item.hot_peppers.hot_pepper.tooltip.warning": " Use a hoe or shears when harvesting.",
+
+  "death.attack.hot_peppers.spicy_burn": "%1$s handled a hot pepper carelessly"
+}

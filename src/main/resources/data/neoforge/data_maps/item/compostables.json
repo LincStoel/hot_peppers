@@ -1,0 +1,6 @@
+{
+  "values": {
+    "hot_peppers:hot_pepper_seeds": { "chance": 0.3 },
+    "hot_peppers:hot_pepper": { "chance": 0.65 }
+  }
+}
