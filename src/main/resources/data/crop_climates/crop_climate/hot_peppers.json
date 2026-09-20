@@ -1,0 +1,15 @@
+{
+ "hot_pepper": {
+  "hook": "CropGrowEvent",
+  "humidity": [
+   0.416,
+   0.884
+  ],
+  "item": "hot_peppers:hot_pepper",
+  "temperature": [
+   64,
+   98
+  ],
+  "tree": false
+ }
+}
